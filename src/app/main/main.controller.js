@@ -10,7 +10,7 @@
     var vm = this;
 
     vm.clickToOpen = function () {
-      var dialog = xDialog.open({
+      xDialog.open({
           template: 'app/components/dialog/dialog.html',
           controller: 'DialogController',
           controllerAs: 'ctrl'

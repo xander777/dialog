@@ -10,7 +10,7 @@
         var vm = this;
 
         vm.close = function(){
-            xDialog.close(this);
+            xDialog.close(vm);
         }
     }
 })();
